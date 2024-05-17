@@ -1,0 +1,123 @@
+@import url(https://fonts.google.com/specimen/Josefin+Sans);
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+    background-color: hsl(235, 21%, 11%);  
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(./images/bg-desktop-dark.jpg);
+    background-repeat: no-repeat;
+}
+
+.main-section{
+    width: 50%;
+
+}
+.main-section h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0;
+    margin-left: 0;
+    letter-spacing: 5px;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.head img {
+    width: 30px;
+    height: 30px;
+    justify-items: right;
+    align-self: center;
+    padding-left: 50%;
+}
+
+.main-section input {
+    width: 93%;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: hsl(235, 24%, 19%);
+}
+
+
+.todo-list {
+    background-color: hsl(235, 24%, 19%);
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.delete {
+    cursor: pointer;
+    color: hsl(235, 21%, 11%);
+}
+
+
+
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: hsl(233, 14%, 35%);
+    cursor: pointer;
+    
+}
+.controls :hover{
+    color: hsl(234, 11%, 52%);
+    
+}
+.active {
+    color: green;
+}
+
+.completed {
+    color: gray;
+}
+
+.clear {
+    color: red;
+    
+}
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
