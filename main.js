@@ -7,7 +7,16 @@ const pege = document.DOMContentLoaded(() => {
 
     const add = document.querySelector('input').value;
 
-    
 
 
 });
+
+let form=document.querySelector("form");
+let text=document.getElementById("text");
+let todoCon=document.querySelector(".todo-list")
+form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    addtodo();
+})
+
+

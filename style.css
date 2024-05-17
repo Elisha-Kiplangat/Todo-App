@@ -40,11 +40,11 @@ main{
     height: 30px;
     justify-items: right;
     align-self: center;
-    padding-left: 50%;
+    padding-left: 70%;
 }
 
 .main-section input {
-    width: 93%;
+    width: 96%;
     padding: 10px;
     margin: 0;
     border: none;
@@ -101,7 +101,7 @@ li {
     
 }
 .active {
-    color: green;
+    color: gray;
 }
 
 .completed {
@@ -109,7 +109,7 @@ li {
 }
 
 .clear {
-    color: red;
+    color: gray;
     
 }
 
